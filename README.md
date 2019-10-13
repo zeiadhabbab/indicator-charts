@@ -1,9 +1,12 @@
 # indicator-charts
-# How to use this component:
+## How to use this component:
+```
 <app-indicator-charts [percent]="60" [fontsize]="300" [animated]="false" [customClass]="'cusindicator'">
 </app-indicator-charts>
+```
 
-# To override the CSS
+## To override the CSS
+```
 .customClass {
         .c100.color .bar,
         .c100.color .fill {
@@ -25,5 +28,5 @@
           background-color: #821cad !important;
         }
  }
-
+```
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/indicator-charts-b4pss7)
