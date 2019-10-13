@@ -1,0 +1,9 @@
+<div class="customClass">
+  <div class="indicator c100 p0 m-0 color" [ngClass]="itemClass + color" [ngStyle]="{'font-size': getStyle() }">
+    <span [id]="idPrefix + '-percent'">{{percent}}%</span>
+    <div class="slice">
+      <div class="bar"></div>
+      <div class="fill"></div>
+    </div>
+  </div>
+</div>
