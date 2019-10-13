@@ -1,4 +1,4 @@
-# indicator-charts
+# Indicator Chart Anguar Component 
 ## How to use this component:
 ```
 <app-indicator-charts [percent]="60" [fontsize]="300" [animated]="false" [customClass]="'cusindicator'">
